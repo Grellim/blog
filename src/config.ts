@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "blob:https://imgur.com/b66054be-6762-4b83-9d35-46e20edc087d", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "https://imgur.com/b66054be-6762-4b83-9d35-46e20edc087d", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Camarada Greg",
 	bio: "Brasileiro, patriota. Apoiador da causa operária. Acredito na revolução e ditadura do proletáriado, sendo o poder do povo soberano. Tentando explicar de formá mais fácil, o que aprendi do jeito difícil!",
 	links: [
