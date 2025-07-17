@@ -65,13 +65,13 @@ export const profileConfig: ProfileConfig = {
 			//url: "https://twitter.com",
 		//},
 		{
-			name: "Steam",
-			icon: "oui:table-density-expanded",
+			name: "Saccey",
+			icon: "fa6-brands:pix",
 			url: "https://saccey.netlify.com",
 		},
 		{
 			name: "Instagram",
-			icon: "streamline:instagram",
+			icon: "fa6-brands:instagram",
 			url: "https://ig.com/ogregvallim",
 		},
 	],
