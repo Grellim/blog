@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "https://i.imgur.com/CaHb5Mq.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "https://i.imgur.com/XLwIxUw.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -31,19 +31,19 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		 {
+		   src: 'https://i.imgur.com/f1s3HjE.png',    // Path of the favicon, relative to the /public directory
+		   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+		   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		 }
 	],
 };
 
 export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
-		LinkPreset.Archive,
 		LinkPreset.About,
+		LinkPreset.Archive,
 		{
 			name: "Soberana",
 			url: "https://discord.gg/Vr8Vz3tZ", // Internal links should not include the base path, as it is automatically added
@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://i.imgur.com/XLwIxUw.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "https://i.imgur.com/f1s3HjE.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Camarada Greg",
 	bio: "Brasileiro, patriota. Apoiador da causa operária. Acredito na revolução e ditadura do proletáriado, sendo o poder do povo soberano. Tentando explicar de formá mais fácil, o que aprendi do jeito difícil!",
 	links: [
