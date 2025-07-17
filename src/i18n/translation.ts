@@ -15,7 +15,7 @@ export type Translation = {
 const defaultTranslation = en;
 
 const map: { [key: string]: Translation } = {
-	es: es,
+	pt: pt,
 	en: en,
 	en_us: en,
 	en_gb: en,
